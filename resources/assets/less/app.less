@@ -1,0 +1,515 @@
+@import '../../../bower_components/bootstrap-timepicker/css/timepicker';
+@import '../../../bower_components/selectize/dist/less/selectize.default.less';
+@import '../../../bower_components/angular-wizard/dist/angular-wizard';
+@import 'components/timeline';
+@import 'components/grid';
+
+@primary-color: lighten(#000, 18%);
+@secondary-color: #F25656;
+
+div[nexo-content] {
+  min-height: 100vh;
+}
+
+.text-muted {
+  color: #949494;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inline-block;
+
+  &-with-hover {
+    &:hover {
+      white-space: normal;
+    }
+  }
+}
+
+.btn {
+  &-primary {
+    background: @primary-color;
+
+    &:hover {
+      background: #000;
+    }
+  }
+
+  &-warning {
+    background: #D8AD25;
+
+    &:hover {
+      background: darken(#D8AD25, 10%);
+    }
+  }
+}
+
+.panel {
+  &-primary {
+    .panel-heading {
+      background: @primary-color;
+    }
+  }
+
+  .panel-heading-actions {
+    height: auto;
+  }
+}
+
+.label {
+  &-default {
+    color: #4E5E6A;
+  }
+}
+
+.nexo-edit-overlay {
+  background-color: #FFF;
+  bottom: 0;
+  display: block;
+  left: 0;
+  opacity: .8;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.nexo-edit-container {
+  z-index: 3;
+  position: relative;
+
+}
+
+@nexo-calendar-min-height: 50px;
+@nexo-calendar-border-color: fade(black, 15%);
+
+.nexo-timeline {
+  &-container,
+  &-wrap {
+    overflow: hidden;
+  }
+
+  .table {
+    table-layout: fixed;
+    position: relative;
+
+    td.nexo-timeline-container-cell {
+      padding: 0 !important;
+      background: white;
+    }
+
+    td.nexo-timeline-container-separator {
+      width: 3px;
+      padding: 0 !important;
+      background: fade(black, 6%);
+    }
+
+    .odd {
+      background: fade(black, 3%);
+    }
+
+    > thead, > tbody {
+      > tr {
+        > td, > th {
+          padding: .8em 1em !important;
+
+          &.nexo-timeline-cell-table-grid {
+            padding: 0 !important;
+
+            > .table {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-header {
+    .table {
+      > thead, > tbody {
+        > tr {
+          > td, > th {
+            padding: .334em .5em !important;
+          }
+        }
+      }
+    }
+  }
+
+  &-content {
+    overflow: auto;
+    position: relative;
+
+    &::-webkit-scrollbar {
+      width: 1em;
+
+      &-track {
+        background: white;
+
+        &:hover {
+          background: darken(white, 2%);
+        }
+      }
+
+      &-thumb {
+        background: #a9a9a9;
+
+        &:hover {
+          background: darken(#a9a9a9, 4%);
+        }
+
+        &:active {
+          background: darken(#a9a9a9, 8%);
+        }
+      }
+
+      &-corner {
+        background: transparent;
+      }
+    }
+
+  }
+
+  &-legend {
+    width: 20%;
+  }
+
+  &-table {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+
+    td, th {
+      border-left: 1px solid fade(black, 5%);
+      padding: 0 !important;
+      white-space: nowrap;
+    }
+  }
+
+  &-users {
+    th {
+      min-width: 200px;
+    }
+  }
+
+  &-days {
+    th {
+      text-align: center;
+    }
+  }
+
+  &-service {
+    background: darken(white, 80%);
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+    cursor: pointer;
+    transition: all 400ms;
+
+    &.preassigned {
+      padding-top: 10px;
+      background: fade(#87cefa, 40%);
+      color: darken(#87cefa, 10%);
+      border: 1px solid darken(#87cefa, 10%);
+    }
+  }
+
+  &-convention {
+    > div {
+      position: relative;
+      padding: .5em 1em;
+      height: auto;
+    }
+  }
+}
+
+#nexo-timeline-table-header-days {
+  > th {
+    background: fade(black, 5%) !important;
+
+    &.odd {
+      background: fade(black, 8%) !important;
+    }
+  }
+}
+
+.nexo-service-color(@bg, @color: darken(@bg, 15%), @border-color: darken(@bg, 10%)) {
+  background-color: @bg;
+  border: 1px solid @border-color;
+  color: @color;
+  height: 100%;
+
+  .code {
+    font-size: 80%;
+    color: fade(@color, 80%);
+    margin-top: -1px;
+  }
+
+  &.nexo-service-light {
+    background-color: lighten(@bg, 50%);
+    color: black;
+  }
+
+  &.only-color {
+    color: @bg;
+    background: none !important;
+    border: none !important;
+  }
+}
+
+.k-event, .k-task-complete {
+  border: none !important;
+}
+
+.nexo-service {
+  &-por-asignar {
+    .nexo-service-color(#0cabff, white);
+  }
+
+  &-en-ruta {
+    .nexo-service-color(#ffb211, white);
+  }
+
+  &-en-espera {
+    .nexo-service-color(#0cabff, white);
+  }
+
+  &-por-ejecutar {
+    .nexo-service-color(darken(#ffb211, 20%), white);
+  }
+
+  &-vencido,
+  &-cancelado {
+    .nexo-service-color(darken(#ff4e61, 20%), white);
+  }
+
+  &-en-ejecucion {
+    .nexo-service-color(darken(#6e7479, 20%), white);
+  }
+
+  &-realizado-y-calificado,
+  &-realizado {
+    .nexo-service-color(#78d94a, white);
+  }
+
+  &-con-novedad {
+    .nexo-service-color(darken(#989fa4, 20%), white);
+  }
+
+  &-wrap {
+    padding: 2px 4px;
+    > div {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+
+.angular-google-map-container {
+  height: 400px;
+}
+
+.nexo-users-list {
+  height: 100px;
+  overflow: auto;
+  background: darken(white, 2%);
+  padding: 10px 0;
+  border: 1px solid darken(white, 3%);
+
+  &::-webkit-scrollbar {
+    width: auto;
+    height: 14px;
+
+    &-track {
+      background: transparent;
+
+      &:hover {
+        background: darken(white, 6%);
+      }
+    }
+
+    &-thumb {
+      background: darken(white, 16%);
+
+      &:hover {
+        background: darken(white, 18%);
+        cursor: pointer;
+      }
+
+      &:active {
+        background: darken(white, 20%);
+      }
+    }
+
+    &-corner {
+      background: transparent;
+    }
+  }
+
+  &-item {
+    width: 200px;
+    cursor: pointer;
+    position: relative;
+
+    .media {
+      position: relative;
+      height: 60px;
+      padding: 8px 10px;
+      background: white;
+      border: 1px solid darken(white, 8%);
+      margin: 0 10px;
+      -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+      -moz-user-select: none; /* mozilla browsers */
+      -ms-user-select: none; /* IE10+ */
+
+      &:hover {
+        background: darken(white, 1%);
+        border-color: darken(white, 30%);
+      }
+
+      h4 {
+        width: 120px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    &-drag {
+      opacity: 0.1 !important;
+    }
+
+    &-hovered {
+      .actions {
+        display: block !important;
+      }
+    }
+
+    &-dragging {
+      .media {
+        box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    &-busy {
+      opacity: 0.8;
+      .media {
+        background: #E7E7E7;
+        border-color: darken(#E7E7E7, 2%);
+
+        &:hover {
+          background: lighten(#E7E7E7, 1%);
+        }
+      }
+
+      &-icon {
+        position: absolute;
+        bottom: 4px;
+        right: 4px;
+      }
+    }
+
+    .actions {
+      display: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      text-align: center;
+      line-height: 50px;
+      color: white;
+    }
+  }
+}
+
+[kendo-draggable] {
+  cursor: move;
+}
+
+.nexo-drop-target {
+  position: relative;
+  min-height: 85px;
+
+  &-on-drop {
+    .nexo-users-list {
+      background: white;
+      border-color: darken(white, 1%);
+
+      &-item {
+        opacity: 0.1;
+      }
+
+      &::-webkit-scrollbar {
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+
+        &-track {
+          opacity: 0;
+        }
+
+        &-thumb {
+          opacity: 0;
+        }
+      }
+    }
+  }
+
+  &-entered {
+    .nexo-users-list {
+      background: lightblue;
+      border-color: darken(lightblue, 2%);
+
+      &-item {
+        opacity: 0.1;
+      }
+    }
+  }
+
+  &-message {
+    position: absolute;
+    color: black;
+    z-index: 100;
+    text-align: center;
+    vertical-align: middle;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 30%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+.nexo-buttons-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1010;
+}
+
+.nexo-aside {
+  .modal-dialog {
+    .modal-content {
+      height: 600px;
+      max-height: 600px !important;
+    }
+  }
+}

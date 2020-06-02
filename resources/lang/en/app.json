@@ -1,0 +1,545 @@
+{
+  "LANG": "English",
+  "NO_HAY_NINGUN_CLIENTE_CREADO": "There are no created clients",
+  "NO_HAY_NINGUNA_ASIGNACION_CREADA": "There is no created assignation",
+  "CREAR_EL_PRIMERO": "Create the first one",
+  "CREAR_LA_PRIMERA": "Create the first one",
+  "OR_IMPORT": "Or import your clients",
+  "GLOBAL": {
+    "ACTIVADO": "Activated",
+    "DESACTIVADO": "Deactivated",
+    "GUARDAR": "Save",
+    "CANCELAR": "Cancel",
+    "REGRESAR": "(go) Back",
+    "ARREGLAR": "Fix-arrange-manage",
+    "SELECCIONAR": "Select",
+    "SELECCIONADO": "Selected",
+    "SELECCIONADA": "Selected",
+    "CERRAR": "Close-quit",
+    "QUITAR": "Remove",
+    "ENVIAR": "Send",
+    "CANTIDAD": "Quantity",
+    "NO_RESULTADOS_PARA": "There are no results for {{texto}}",
+    "OK": "Ok",
+    "SIGUIENTE": "Next",
+    "ANTERIOR": "Previous",
+    "MES": "Month",
+    "DIA": "Day",
+    "ANNO": "Year",
+    "HORA": "Hour",
+    "MINUTO": "Minute",
+    "SELECCIONE_IMAGEN": "Browse or drag and drop an image",
+    "NO_PERM": "You do not have enough authorizations for this action",
+    "ACCESS_DENIED": "Access denied",
+    "ERROR_SERVIDOR": "There was an internal server error, try again later.",
+    "ERROR_VALIDANDO": {
+      "TITLE": "You can’t continue",
+      "MSG": "Please complete all required information to continue"
+    },
+    "ERROR_GUARDANDO": {
+      "TITLE": "Information could not be saved",
+      "MSG": "'There was an error while saving."
+    },
+    "ELEMENTO_CREADO": "Item {{ nombre }} has been created.",
+    "ELEMENTO_ACTUALIZADO": "Item {{ nombre }} has been updated.",
+    "ELEMENTO_ELIMINADO": "Item successfully deleted.",
+    "ERROR_ELIMINANDO": {
+      "TITLE": "Item could not be deleted",
+      "MSG": "There was an error during item deletion. Please try again later. "
+    },
+    "SISTEMA_MANTENIMIENTO": "Service is currently under mantainance. We will be back shortly.",
+    "BUSCAR": "Search",
+    "VALIDACION": {
+      "REQUERIDO": "This field is mandatory."
+    },
+    "CAMBIANDO_IDIOMA": "We are switching languages, please wait…",
+    "SELECCIONE_UNA_O_VARIAS_OPCIONES" : "Select one or more options..."
+  },
+  "FORMS": {
+    "CAMPOS": {
+      "AUTOCOMPLETAR": {
+        "NO_HAY_RESULTADOS": "There are no results for \"{{texto}}\""
+      }
+    },
+    "ASSIGN": {
+      "ARREGLAR": "Fix/arrange/manage",
+      "SELECCIONAR_DIRECCION": "Select an address",
+      "AGREGAR_DIRECCION": "Add another address",
+      "NO_DIRECCIONES" : "Client does not have any created addresses",
+      "BUSCAR_AL_CLIENTE": "Search client",
+      "TIPO_DE_ASIGNACION": "Assignment types",
+      "SERVICIOS": "Services",
+      "PRODUCTOS": "Products",
+      "TIPO_DE_PROGRAMACION": "Programming/scheduling types",
+      "FECHA_Y_HORA_DE_EJECUCION": "Date and time for execution",
+      "SE_REPITE": "Repetition on",
+      "REPETIR_CADA": "Repeat every…",
+      "REPETIR_CADA_DIA": "Repeat each day",
+      "REPETIR_EL": "Repeat on…",
+      "INICIAL_EL": "Begins on…",
+      "FINALIZA_EL": "Ends on…",
+      "BUSCAR_PRODUCTO": "Search product...",
+      "PRODUCTOS_DISPONIBLES": "Available products: ({{cantidad}})",
+      "CLIC_PRODUCTO_SELECCIONAR": "Click on product you wish to select.",
+      "CLIC_PRODUCTO_DESELECCIONAR": "Click on product you wish to deselect.",
+      "PRODUCTOS_SELECCIONADOS": "Selected products: ({{cantidad}})",
+      "SELECCIONAR_PRODUCTO": "Select product",
+      "DESELECCIONAR_PRODUCTO": "Deselect product",
+      "BUSCAR_RUTERO": "Search courier...",
+      "RUTEROS_DISPONIBLES": "Available couriers/carriers",
+      "CLIC_RUTERO_SELECCIONAR": "Click on the courier you wish to select.",
+      "CLIC_RUTERO_DESELECCIONAR": "Click on the courier you wish to deselect.",
+      "RUTEROS_SELECCIONADOS": "Selected couriers",
+      "SELECCIONAR_RUTERO": "Select a courier",
+      "DESELECCIONAR_RUTERO": "Deselect courier",
+      "RUTERO_NO_ASIGNACION": "No assignation associated",
+      "INFORMACION_CLIENTE": "Client information",
+      "INFORMACION_ASIGNACION": "Assignation information",
+      "INFORMACION_RUTEROS": "Couriers information",
+      "TIPO_ASIGNACION": "Assignation type",
+      "TIPO_PROGRAMACION": "Programming/scheduling type",
+      "SERVICIOS_MISMO_TIEMPO": "Each service will be executed separatedly (Duración {{minutes}} minutes)",
+      "SERVICIOS_A_LA_VEZ": "All services will be executed at once/at the same time (Duration {{minutes}} minutes)",
+      "EDITAR_DIRECCION": "Edit address",
+      "PASOS": {
+        "SELECCIONAR_CLIENTE": "Select a client",
+        "SELECCIONAR_SERVICIOS": "Select service or product",
+        "SELECCIONAR_FECHA": "Select date and couriers",
+        "RESUMEN": "Assignation summary"
+      }
+    },
+    "PRODUCT": {
+      "CATEGORIA_DEL_PRODUCTO": "Product category",
+      "NOMBRE": "Name",
+      "DESCRIPCION": "Description",
+      "CODIGO": "Code",
+      "PESO": "Weight",
+      "UNIDAD": "Unit",
+      "ALTURA": "Height",
+      "ANCHO": "Width",
+      "PROFUNDIDAD": "Depth",
+      "INFORMACION_BASICA": "Basic information",
+      "CARACTERISTICAS": "Characteristics/attributes"
+    },
+    "CUSTOMER": {
+      "NOMBRES": "Name",
+      "APELLIDOS": "Surname",
+      "EMAIL": "Email",
+      "TIPO_DE_DOCUMENTO": "Document type",
+      "DOCUMENTO": "Document number",
+      "DIRECCION": "Address",
+      "DIRECCIONES": "Addresses",
+      "AGREGAR_OTRA_DIRECCION": "Add another address",
+      "TELEFONO": "Phone",
+      "TELEFONOS": "Phones",
+      "TIPO": "Type",
+      "AGREGAR_OTRO_TELEFONO": "Add another phone",
+      "CIUDAD": "City"
+    },
+    "PRODUCT_CATEGORY": {
+      "NOMBRE": "Name",
+      "DESCRIPCION": "Description"
+    },
+    "STATS": {
+      "FILTRAR_DESDE": "Filter from",
+      "FILTRAR_HASTA": "Filter up",
+      "AGRUPAR_POR": "Group by",
+      "DIAS": "Days",
+      "SEMANAS": "Weeks",
+      "MESES": "Months"
+    },
+    "TEAM": {
+      "LOGO": "Logo",
+      "SELECCIONE_O_ARRASTRE_EL_LOGO": "Browse or drag and drop the logo",
+      "ESTADO": "Status",
+      "INACTIVA": "Inactive",
+      "ACTIVA": "Active",
+      "NOMBRE": "Name",
+      "URL": "URL",
+      "NO_ESCRIBA_EL_DOMINIO": "(Ej: empresa) Don’t write the domain",
+      "MODULOS_ACTIVADOS": "Activate modules"
+    },
+    "SERVICE": {
+      "NOMBRE": "Name",
+      "HORAS": "Hours",
+      "MINUTOS": "Minutes",
+      "DESCRIPCION": "Description"
+    },
+    "USER": {
+      "LAS_CONTRASENAS_NO_COINCIDEN": "Password don`t match",
+      "IMAGEN": "Imagen",
+      "SELECCIONE_O_ARRASTRE_LA_IMAGEN": "Browse or drag and drop the image",
+      "GRUPO": "Group",
+      "NOMBRES": "Names",
+      "APELLIDOS": "Surnames",
+      "EMAIL": "Email",
+      "CONTRASENA": "Passsword",
+      "CONFIRME_CONTRASENA": "Confirm password",
+      "DATO_DE_CONTACTO": "Contact information",
+      "DATOS_DE_CONTACTO": "Contact information",
+      "TIPO": "Type",
+      "DIRECCION": "Direction",
+      "TELEFONO_FIJO": "Phone",
+      "TELEFONO_MOVIL": "Mobile Phone",
+      "AGREGAR_OTRO_TRANSPORTE": "Add another transport",
+      "MEDIO_DE_TRANSPORTE": "Mode of transport",
+      "TIPO_DE_TRANSPORTE": "Type of transport",
+      "ES_PROPIO": "Is it your own transport?",
+      "NO": "No",
+      "SI": "Yes",
+      "NOMBRE": "Name",
+      "CAPACIDAD_MAXIMA": "Maximum capacity",
+      "CAPACIDAD_MAXIMA_PLACEHOLDER": "Example: 2 tons",
+      "CAPACIDAD_DE_PASAJEROS": "passengers capacity",
+      "VELOCIDAD_MAXIMA": "Maximum velocity",
+      "MATRICULA": "Registration (ID)",
+      "CIUDAD_DE_LA_MATRICULA": "Registration city",
+      "OBSERVACIONES": "Observations"
+    }
+  },
+  "PAGES": {
+    "ASIGNACIONES": {
+      "TITLE": "Assignments",
+      "ASIGNACIONES": "Assignments",
+      "ASIGNACION": "assigment",
+      "NO_HAY_NINGUNA_ASIGNACION_CREADA": "There is no created assignation",
+      "CREAR_LA_PRIMERA": "Create the first one",
+      "DIRECCION": "Address",
+      "CIUDAD": "City",
+      "RUTEROS_ASIGNADOS": "Couriers assign",
+      "INFORMACION_GENERAL": "General information",
+      "ESTADO": "Status",
+      "CODIGO_DE_SERVICIO": "Service code",
+      "CODIGO_DE_VERIFICACION": "Verification code",
+      "OBSERVACIONES": "Observations",
+      "SERVICIOS": "Service(s)",
+      "PRODUCTOS": "Product(s)",
+      "PROGRAMACION_ASIGNACION": "Scheduling of assignments",
+      "TIPO_PROGRAMACION": "Schedule types",
+      "TIPO_ASIGNACION": "Assignment types",
+      "INICIA": "Start",
+      "FINALIZA": "End",
+      "RECURRENCIA": "Frequency",
+      "DURACION": "Duration",
+      "HERRAMIENTAS": "Tools / Activities",
+      "COMENTARIOS": "Comment(s)",
+      "NO_COMENTARIOS": "You have no Comments",
+      "NOVEDADES": "Novelty",
+      "NO_NOVEDADES": "You have no news",
+      "TABLE": {
+        "COLUMNS": {
+          "CODIGO": "Code",
+          "ESTADO": "Status",
+          "TIPO": "Type",
+          "TIPO_DE_ASIGNACION": "Assignment type",
+          "FECHA_DE_INICIO": "Start date",
+          "MODIFICADO": "Modify"
+        }
+      }
+    },
+    "CLIENTES": {
+      "TITLE": "Clients",
+      "CLIENTES": "Clients",
+      "CLIENTE": "Clients",
+      "TABLE": {
+        "COLUMNS": {
+          "NOMBRES": "Names",
+          "APELLIDOS": "Surnames",
+          "EMAIL": "Email",
+          "DOCUMENTO": "Document",
+          "CREADO": "Create",
+          "MODIFICADO": "Modify"
+        }
+      }
+    },
+    "DASHBOARD": {
+      "ULTIMAS_ASIGNACIONES_CREADAS" : "Last assignments created",
+      "ULTIMOS_USUARIOS_CREADOS" : "Last users created",
+      "MODULOS" : "Modules",
+      "LIMITES_POR_GRUPO" : "Licenses"
+    },
+    "MAPA": {
+      "INFORMACION_RAPIDA": {
+        "SERVICIOS_POR_EJECUTAR": "Services to be executed",
+        "SERVICIOS_EN_EJECUCION": "Services in execution",
+        "SERVICIOS_VENCIDOS": "Expired services",
+        "SERVICIOS_FINALIZADOS": "Finished services",
+        "RUTEROS_CONECTADOS": "Connected couriers"
+      }
+    },
+    "EMPRESAS": {
+      "TITLE": "Company",
+      "TABLE": {
+        "COLUMNS": {
+          "LOGO": "Logo",
+          "NOMBRE": "Name",
+          "ASIGNACIONES": "Assignments",
+          "USUARIOS": "Users",
+          "CREADA": "Created",
+          "MODIFICADA": "Modified"
+        },
+        "BUTTONS": {
+          "VER_EMPRESA": "Visualize company"
+        }
+      }
+    },
+    "PRODUCTOS": {
+      "TITLE": "Products",
+      "PRODUCTOS": "Products",
+      "PRODUCTO": "Product",
+      "TABLE": {
+        "COLUMNS": {
+          "NOMBRE": "Name",
+          "CATEGORIA": "Category",
+          "CREADO": "Created",
+          "MODIFICADO": "Modified"
+        }
+      }
+    },
+    "HERRAMIENTAS": {
+      "TITLE": "Tools",
+      "HERRAMIENTAS": "Tools",
+      "HERRAMIENTA": "Tool",
+      "TABLE": {
+        "COLUMNS": {
+          "NOMBRE": "Name",
+          "CATEGORIA": "Category",
+          "CREADO": "Created",
+          "MODIFICADO": "Modified"
+        }
+      }
+    },
+    "SERVICIOS": {
+      "TITLE": "Services",
+      "GRAFICO_A_IMAGEN": "Graphic to image",
+      "GRAFICO_A_PDF": "Graphic to PDF",
+      "TABLA_A_EXCEL": "Table to Excel",
+      "TABLA_A_PDF": "Table to PDF",
+      "FILTRAR": "Filter",
+      "EXPORTAR": "Export",
+      "TABLE": {
+        "FECHA": "Date",
+        "COLUMNS": {
+          "NOMBRE": "Name",
+          "TIEMPO_DE_RESPUESTA" : "Response time",
+          "ASIGNACIONES" : "Assignments",
+          "MODIFICADO" : "Modified"
+        }
+      }
+    },
+    "USUARIOS": {
+      "TITLE": "Users",
+      "USUARIOS": "Users",
+      "USUARIO": "User",
+      "TABLE": {
+        "COLUMNS": {
+          "IMAGEN": "Image",
+          "NOMBRES": "Name",
+          "APELLIDOS": "Surnames",
+          "EMAIL": "Email",
+          "GRUPO": "Group",
+          "MODIFICADO": "Modified"
+        }
+      }
+    },
+    "RUTEROS": {
+      "TITLE": "Curiers assignments",
+      "GRAFICO_A_IMAGEN": "Graphic to image",
+      "GRAFICO_A_PDF": "Graphic to PDF",
+      "TABLA_A_EXCEL": "Table to Excel",
+      "TABLA_A_PDF": "Table to PDF",
+      "FILTRAR": "Filter",
+      "EXPORTAR": "Export",
+      "TABLE": {
+        "FECHA": "Date"
+      }
+    },
+    "CATEGORIAS": {
+      "TITLE": "Assignments",
+      "TABLE": {
+        "COLUMNS": {
+          "ID": "ID",
+          "NOMBRE": "Name",
+          "CREADO": "Created",
+          "MODIFICADO": "Modified"
+        },
+        "BUTTONS": {
+          "VER_EMPRESA": "Visualize company"
+        }
+      }
+    },
+    "ESTADISTICAS": {
+      "SERVICIOS": {
+        "TITLE": "Title",
+        "EXPORTAR": "Export",
+        "GRAFICO_A_IMAGEN": "Graphic to image",
+        "GRAFICO_A_PDF": "Graphic to pdf",
+        "TABLA_A_EXCEL": "Table to excel",
+        "TABLA_A_PDF": "Table to pdf",
+        "FILTRAR": "Filter"
+      },
+      "RUTEROS": {
+        "TITLE": "Title",
+        "EXPORTAR": "Export",
+        "GRAFICO_A_IMAGEN": "Graphic to image",
+        "GRAFICO_A_PDF": "Graphic to pdf",
+        "TABLA_A_EXCEL": "Table to excel",
+        "TABLA_A_PDF": "Table to pdf",
+        "FILTRAR": "Filter"
+      },
+      "ENCUESTAS": {
+        "TITLE": "Survey",
+        "TABLE": {
+          "COLUMNS": {
+            "ID": "ID",
+            "NOMBRE": "Name",
+            "CLIENTE": "Client",
+            "RESPONDIDO": "Responded",
+            "RATING": "Rating"
+          },
+          "BUTTONS": {
+            "VER": "Ver"
+          }
+        },
+        "RESPUESTA" : "Response",
+        "CLIENTE" : "Client",
+        "NOMBRE" : "Name",
+        "CORREO" : "Email",
+        "PREGUNTA_Y_RESPUESTA" : "Question and response",
+        "RESPUESTA" : "Response",
+        "PREGUNTA" : "Question",
+        "OPCION" : "Option"
+      }
+    },
+    "ENCUESTAS": {
+      "TITLE": "Survey",
+      "TABLE": {
+        "COLUMNS": {
+          "NOMBRE": "Name",
+          "ESTADO": "Status",
+          "CREADO": "Created",
+          "MODIFICADO": "Modified"
+        }
+      }
+    }
+  },
+  "MENU": {
+    "DASHBOARD": "Dashboard",
+    "MAPA": "Map",
+    "EMPRESAS": "Companies",
+    "USUARIOS": "Users",
+    "SALIR": "Close/Sing out",
+    "LENGUAJES": "Languages",
+    "ASIGNACIONES": "Assignments",
+    "CONFIGURACION": "Configuration",
+    "PRODUCTOS": {
+      "PRODUCTOS": "Products",
+      "CATEGORIAS": "Categories",
+      "VER_CATEGORIAS": "Visualize categories",
+      "CREAR_CATEGORIAS": "Create categories",
+      "VER_PRODUCTOS": "Visualize products"
+    },
+    "HERRAMIENTAS": {
+      "HERRAMIENTAS": "Tools / Activities",
+      "CATEGORIAS": "Categories",
+      "VER_CATEGORIAS": "Visualize categories",
+      "VER_HERRAMIENTAS": "Visualize tools"
+    },
+    "ENCUESTAS": {
+      "ENCUESTAS": "Survey"
+    },
+    "SERVICIOS": "Services",
+    "CLIENTES": "Clients",
+    "ESTADISTICAS": {
+      "ESTADISTICAS": "Statistics",
+      "POR_ESTADO": "Assignments status",
+      "POR_RUTERO": "Assignments couriers",
+      "ENCUESTAS": "Survey results"
+    }
+  },
+  "TABLE": {
+    "NO_RESULTADOS": "Empty",
+    "IMPORTAR": "Import",
+    "O_IMPORTAR": "o import",
+    "VER": "Visualize",
+    "ELIMINAR": "Delete",
+    "EDITAR": "Edit",
+    "CREAR": "Create",
+    "CREAR_EL_PRIMERO": "Create first register",
+    "BUSCAR": "Find register…",
+    "PAGINATION": {
+      "PAGE": "Page:",
+      "ROWS_PER_PAGE": "Rows per page:",
+      "OF": "of"
+    }
+  },
+  "OPTIONS": {
+    "INMEDIATE": "Inmediate",
+    "SCHEDULE": "Schedule",
+    "RECURRENT": "Recurrent",
+    "DEMAND": "Demand",
+    "MANDATORY": "Mandatory"
+  },
+  "CUSTOMER": {
+    "ASIGNACION": {
+      "NO_ASIGNADO": "Your assignation is not available",
+      "GRACIAS": "Thank you for your comments",
+      "TIEMPO_ESTIMADO": "Estimated time",
+      "TIEMPO_ESTIMADO_LLEGADA": "Estimated time of arrival",
+      "HORA": "Hour",
+      "HORAS": "Hours",
+      "MINUTO": "Minute",
+      "MINUTOS": "Minutes",
+      "SEGUNDO": "Second",
+      "SEGUNDOS": "Seconds",
+      "PROGRAMADA": "Real time view of your request will only be available on the day it is scheduled",
+      "PASADA": "Assignation has expired, please contact your vendor",
+      "TIEMPO_ESTIMADO_EJECUCION": "Estimated time of execution",
+      "INICIO_ESTIMADO": "Estimated start",
+      "FINALIZADO_ESTIMADO": "Estimated finish",
+      "SERVICIO_REALIZAR": "Pending services",
+      "PRODUCTO_REALIZAR": "Products to be delivered",
+      "NO_ACEPTADA": "Assignment not accepted by courier",
+      "SIN_UBICACION": "Courier location has not been recorded"
+
+    },
+    "POLL": {
+      "ENCUESTA": "Please complete this test",
+      "GRACIAS": "Thank you for your comments"
+    },
+    "EDITAR": {
+      "MENU": "Edit profile",
+      "GRACIAS": "Your information have been update"
+    },
+    "HISTORIAL": {
+      "MENU": "History"
+    }
+  },
+  "TODOS": "All",
+  "FECHA": "Date",
+  "SEMANA": "Week",
+  "USUARIOS": "Users",
+  "SERVICIO": "Service",
+  "estadisticas": "Statistics",
+  "herramientas": "Tools",
+  "team-admin": "Enterprise Administrator",
+  "despachador": "Dispatcher",
+  "rutero": "Courier",
+  "por-asignar": "Pending",
+  "en-espera": "With an update",
+  "pendiente": "Cancelled",
+  "por-ejecutar": "Pending to execute",
+  "en-ejecucion": "On execution",
+  "realizado": "Completed",
+  "realizado-y-calificado": "Completed and qualified",
+  "cancelado": "Cancelled",
+  "con-novedad": "With an update",
+  "en-ruta": "On Route",
+  "vencido": "Defeated",
+  "inmediate": "Inmediate",
+  "demand": "Demand",
+  "schedule": "Schedule",
+  "mandatory": "Mandatory",
+  "activo": "On",
+  "inactivo": "Off"
+}

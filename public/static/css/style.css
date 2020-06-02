@@ -1,0 +1,81 @@
+/* style */
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+a.md-button.md-nexo-theme.md-primary.md-raised, a.md-button.md-nexo-theme.md-primary.md-fab, .md-button.md-nexo-theme.md-primary.md-raised, .md-button.md-nexo-theme.md-primary.md-fab {
+    color: rgb(255,255,255);
+    background-color: rgb(244,67,54);
+}
+
+.md-toolbar-grey .md-toolbar-tools h3{
+	color: #000;
+}
+
+nx-sidenav .lang-button {
+    position: static;
+    bottom: 0;
+    padding: 0;
+    background: #EFEFEF;
+    display: none;
+}
+
+.font-big{
+	font-size: 18px;
+	color: rgb(244,67,54);
+}
+
+.nx-detail-list li > strong{
+	font-size: 16px;
+	color: rgb(244,67,54);
+}
+
+.fl-r {
+    float: none !important;
+}
+
+.nx-detail-list li strong:after{
+  content: ": ";
+}
+
+@media screen and (max-width: 991px){ 
+    .fl-r {
+        float: none !important;
+    }
+
+    .nx-detail-list li strong:after{
+      content: ": ";
+    }
+}
+
+@media screen and (max-width: 767px){
+    .fl-r {
+        float: none !important;
+    }
+
+    .nx-detail-list li strong:after{
+      content: ": ";
+    }
+}
+
+@media screen and (max-width: 456px){
+
+    .font-big .fl-r{
+        float: none !important;
+        display: block;
+    }
+
+    .nx-detail-list li strong:after{
+      content: ": ";
+    }
+
+    md-sidenav {
+        width: calc(100% - 0px);
+    }    
+
+    .map{
+        display: inline-block;
+        width: 100%;
+    }
+}

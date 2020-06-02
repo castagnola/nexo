@@ -1,0 +1,6 @@
+AIzaSyC2vBv3u8HF4pQbJ5kRMnh-GVPu22V_PE0
+
+bug space
+lsof +L1
+
+sudo Kill {PID}

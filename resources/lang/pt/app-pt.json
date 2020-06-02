@@ -1,0 +1,511 @@
+Eu{
+  "LANG": "Portugues",
+  "NO_HAY_NINGUN_CLIENTE_CREADO": "Não há clientes criados",
+  "NO_HAY_NINGUNA_ASIGNACION_CREADA": "Não há atribuição criada",
+  "CREAR_EL_PRIMERO": "Crie o primeiro",
+  "CREAR_LA_PRIMERA": "Crie o primeiro",
+  "OR_IMPORT": "O importar clientes",
+  "GLOBAL": {
+    "ACTIVADO": "Ativo",
+    "DESACTIVADO": "Inativo",
+    "GUARDAR": "Salvar",
+    "CANCELAR": "Cancelar",
+    "REGRESAR": "Voltar",
+    "ARREGLAR": "Ajustar",
+    "SELECCIONAR": "Selecionar",
+    "SELECCIONADO": "Selecionado",
+    "SELECCIONADA": "Selecionada",
+    "CERRAR": "Fechar",
+    "QUITAR": "Sair",
+    "ENVIAR": "Enviar",
+    "CANTIDAD": "Quantidade",
+    "NO_RESULTADOS_PARA": "Não há resultado {{texto}}",
+    "OK": "Ok",
+    "SIGUIENTE": "Seguinte",
+    "ANTERIOR": "Anterior",
+    "MES": "Mês",
+    "DIA": "Dia",
+    "ANNO": "Ano",
+    "HORA": "Hora",
+    "MINUTO": "Minuto",
+    "SELECCIONE_IMAGEN": "Selecione ou arraste a imagem",
+    "NO_PERM": "Não tem permissões suficientes para esta ação",
+    "ACCESS_DENIED": "Aceso negado",
+    "ERROR_SERVIDOR": "Houve um erro no servidor, tente novamente mais tarde.",
+    "ERROR_VALIDANDO": {
+      "TITLE": "Não é possível continuar",
+      "MSG": "Complete toda a informaçã solicitada para continuar com o processo"
+    },
+    "ERROR_GUARDANDO": {
+      "TITLE": "Não foi possível salvar",
+      "MSG": "'Houve  um erro ao tentar salvar"
+    },
+    "ELEMENTO_CREADO": "O elemento {{ nombre }} foi criado.",
+    "ELEMENTO_ACTUALIZADO": "O elemento {{ nombre }} foi atualizado.",
+    "ELEMENTO_ELIMINADO": "Elemento eliminado corretamente",
+    "ERROR_ELIMINANDO": {
+      "TITLE": "Não foi possível eliminar",
+      "MSG": "Houve um erro ao eliminar o elemento. Tente novamente mais tarde"
+    },
+    "SISTEMA_MANTENIMIENTO": "O serviço se encontra em processo de manutenção. Voltaremos em breve.",
+    "BUSCAR": "Encontrar",
+    "VALIDACION": {
+      "REQUERIDO": "Esta entrada é necessária"
+    },
+    "CAMBIANDO_IDIOMA": "Alteração do idioma, por favor aguarde ..."
+  },
+  "FORMS": {
+    "CAMPOS": {
+      "AUTOCOMPLETAR": {
+        "NO_HAY_RESULTADOS": "Não foram encontrados resultados para \"{{texto}}\""
+      }
+    },
+    "ASSIGN": {
+      "ARREGLAR": "Ajustar",
+      "SELECCIONAR_DIRECCION": "Selecione o endereço",
+      "AGREGAR_DIRECCION": "Adicionar outro endereço",
+      "NO_DIRECCIONES" : "O cliente não tem endereços",
+      "BUSCAR_AL_CLIENTE": "Encontrar um cliente",
+      "TIPO_DE_ASIGNACION": "Tipos de alocação",
+      "SERVICIOS": "Serviço(s)",
+      "PRODUCTOS": "Producto(s)",
+      "TIPO_DE_PROGRAMACION": "Tipo de programação",
+      "FECHA_Y_HORA_DE_EJECUCION": "Data e hora de execução",
+      "SE_REPITE": "Se repete",
+      "REPETIR_CADA": "Repetir cada",
+      "REPETIR_CADA_DIA": "Repetir cada dia",
+      "REPETIR_EL": "Repetir o",
+      "INICIAL_EL": "Inicial o",
+      "FINALIZA_EL": "Finaliza o",
+      "BUSCAR_PRODUCTO": "Encontrar produto...",
+      "PRODUCTOS_DISPONIBLES": "Produtos disponíveis ({{cantidad}})",
+      "CLIC_PRODUCTO_SELECCIONAR": "Clique sobre o produto que deseja selecionar.",
+      "CLIC_PRODUCTO_DESELECCIONAR": "Clique sobre o produto que deseja desmarcar.",
+      "PRODUCTOS_SELECCIONADOS": "Produtos selecionados ({{cantidad}})",
+      "SELECCIONAR_PRODUCTO": "Selecionar produto",
+      "DESELECCIONAR_PRODUCTO": "Desmarcar produto",
+      "BUSCAR_RUTERO": "Encontrar entregador..",
+      "RUTEROS_DISPONIBLES": "Entregadores disponíveis",
+      "CLIC_RUTERO_SELECCIONAR": "Clique sobre o entregador que deseja selecionar.",
+      "CLIC_RUTERO_DESELECCIONAR": "Clique sobre o entregador que deseja desmarcar.",
+      "RUTEROS_SELECCIONADOS": "Entregadores selecionados",
+      "SELECCIONAR_RUTERO": "Selecionar entregador",
+      "DESELECCIONAR_RUTERO": "Desmarcar entregador",
+      "RUTERO_NO_ASIGNACION": "Nenhuma alocação existente",
+      "INFORMACION_CLIENTE": "Informação do cliente",
+      "INFORMACION_ASIGNACION": "Informação da alocação",
+      "INFORMACION_RUTEROS": "Informação dos entregadores",
+      "TIPO_ASIGNACION": "Tipo de alocação",
+      "TIPO_PROGRAMACION": "Tipo de programação",
+      "SERVICIOS_MISMO_TIEMPO": "Os serviços são executados um de cada vez (Duração {{minutes}} minutos)",
+      "SERVICIOS_A_LA_VEZ": "Os serviços funcionam de uma só vez (Duração {{minutes}} minutos)",
+      "EDITAR_DIRECCION": "Editar Endereço",
+      "PASOS": {
+        "SELECCIONAR_CLIENTE": "Selecionar cliente",
+        "SELECCIONAR_SERVICIOS": "Selecionar serviço e/ou produtos",
+        "SELECCIONAR_FECHA": "Selecionar data e entregadores",
+        "RESUMEN": "Resumo da alocação"
+      }
+    },
+    "PRODUCT": {
+      "CATEGORIA_DEL_PRODUCTO": "Categoria do produto",
+      "NOMBRE": "Nome",
+      "DESCRIPCION": "Descrição",
+      "CODIGO": "Código",
+      "PESO": "Peso",
+      "UNIDAD": "Unidade",
+      "ALTURA": "Altura",
+      "ANCHO": "Largura",
+      "PROFUNDIDAD": "Profundidade",
+      "INFORMACION_BASICA": "Informação básica",
+      "CARACTERISTICAS": "Características"
+    },
+    "CUSTOMER": {
+      "NOMBRES": "Nombes",
+      "APELLIDOS": "Sobrenomes",
+      "EMAIL": "Email",
+      "TIPO_DE_DOCUMENTO": "Tipo de documento",
+      "DOCUMENTO": "Documento",
+      "DIRECCION": "Endereço",
+      "DIRECCIONES": "Endereços",
+      "AGREGAR_OTRA_DIRECCION": "Adicionar outro endereço",
+      "TELEFONO": "Teléfono",
+      "TELEFONOS": "Telefones",
+      "TIPO": "Tipo",
+      "AGREGAR_OTRO_TELEFONO": "Adicionar outro telefone",
+      "CIUDAD": "Cidade"
+    },
+    "PRODUCT_CATEGORY": {
+      "NOMBRE": "Nome",
+      "DESCRIPCION": "Descrição"
+    },
+    "STATS": {
+      "FILTRAR_DESDE": "Filtrar desde",
+      "FILTRAR_HASTA": "Filtrar até",
+      "AGRUPAR_POR": "Agrupar por",
+      "DIAS": "Dias",
+      "SEMANAS": "Semanas",
+      "MESES": "Meses"
+    },
+    "TEAM": {
+      "LOGO": "Logo",
+      "SELECCIONE_O_ARRASTRE_EL_LOGO": "Selecione ou arrastre o logo",
+      "ESTADO": "Estado",
+      "INACTIVA": "Inativa",
+      "ACTIVA": "Ativa",
+      "NOMBRE": "Nome",
+      "URL": "URL",
+      "NO_ESCRIBA_EL_DOMINIO": "(Ex: Empresa) Não digite o domínio",
+      "MODULOS_ACTIVADOS": "Módulos ativos"
+    },
+    "SERVICE": {
+      "NOMBRE": "Nome",
+      "HORAS": "Horas",
+      "MINUTOS": "Minutos",
+      "DESCRIPCION": "Descrição"
+    },
+    "USER": {
+      "LAS_CONTRASENAS_NO_COINCIDEN": "As senhas não conferem",
+      "IMAGEN": "Imagem",
+      "SELECCIONE_O_ARRASTRE_LA_IMAGEN": "Selecione ou arraste a imagem",
+      "GRUPO": "Grupo",
+      "NOMBRES": "Nomes",
+      "APELLIDOS": "Sobrenomes",
+      "EMAIL": "Email",
+      "CONTRASENA": "Senha",
+      "CONFIRME_CONTRASENA": "Confirmar senha",
+      "DATO_DE_CONTACTO": "Informação de contato",
+      "DATOS_DE_CONTACTO": "Dados de contato",
+      "TIPO": "Tipo",
+      "DIRECCION": "Endereço",
+      "TELEFONO_FIJO": "Telefone Fixo",
+      "TELEFONO_MOVIL": "Telefone Celular",
+      "AGREGAR_OTRO_TRANSPORTE": "Adicionar outro transporte",
+      "MEDIO_DE_TRANSPORTE": "Meio de transporte",
+      "TIPO_DE_TRANSPORTE": "Tipo de transporte",
+      "ES_PROPIO": "É próprio?",
+      "NO": "Não",
+      "SI": "Sim",
+      "NOMBRE": "Nome",
+      "CAPACIDAD_MAXIMA": "Capacidade máxima",
+      "CAPACIDAD_MAXIMA_PLACEHOLDER": "Ex: 2 Toneladas",
+      "CAPACIDAD_DE_PASAJEROS": "Capacidade de passageiros",
+      "VELOCIDAD_MAXIMA": "Velocidade máxima",
+      "MATRICULA": "Placa",
+      "CIUDAD_DE_LA_MATRICULA": "Cidade da placa",
+      "OBSERVACIONES": "Observações"
+    }
+  },
+  "PAGES": {
+    "ASIGNACIONES": {
+      "TITLE": "Alocações",
+      "ASIGNACIONES": "Alocações",
+      "ASIGNACION": "alocação",
+      "NO_HAY_NINGUNA_ASIGNACION_CREADA": "Não há alocações criadas",
+      "CREAR_LA_PRIMERA": "Criar a primeira",
+      "DIRECCION": "Endereço",
+      "CIUDAD": "Cidade",
+      "RUTEROS_ASIGNADOS": "Ruteros atribuído",
+      "INFORMACION_GENERAL": "Informações gerais",
+      "ESTADO": "Estado",
+      "CODIGO_DE_SERVICIO": "Código de serviço",
+      "CODIGO_DE_VERIFICACION": "Código de verificação",
+      "OBSERVACIONES": "Observações",
+      "SERVICIOS": "Serviço(s)",
+      "PRODUCTOS": "Produto(s)",
+      "PROGRAMACION_ASIGNACION": "Atribuição de programação",
+      "TIPO_PROGRAMACION": "Tipo de programação",
+      "TIPO_ASIGNACION": "Tipo de mapeamento",
+      "INICIA": "Começos",
+      "FINALIZA": "Finaliza",
+      "RECURRENCIA": "A recorrência",
+      "TABLE": {
+        "COLUMNS": {
+          "CODIGO": "Código",
+          "ESTADO": "Estado",
+          "TIPO": "Tipo",
+          "TIPO_DE_ASIGNACION": "Tipo de alocação",
+          "FECHA_DE_INICIO": "Data de inicio",
+          "MODIFICADO": "Modificado"
+        }
+      }
+    },
+    "CLIENTES": {
+      "TITLE": "Clientes",
+      "CLIENTES": "Clientes",
+      "CLIENTE": "Clientes",
+      "TABLE": {
+        "COLUMNS": {
+          "NOMBRES": "Nomes",
+          "APELLIDOS": "Sobrenome",
+          "EMAIL": "Email",
+          "DOCUMENTO": "Documento",
+          "CREADO": "Criado",
+          "MODIFICADO": "Modificado"
+        }
+      }
+    },
+    "DASHBOARD": {
+      "ULTIMAS_ASIGNACIONES_CREADAS": "Últimas alocações criadas",
+      "ULTIMOS_USUARIOS_CREADOS": "Últimos usuários criado",
+      "MODULOS": "Módulos",
+      "LIMITES_POR_GRUPO": "Límites de grupos"
+    },
+    "MAPA": {
+      "INFORMACION_RAPIDA": {
+        "SERVICIOS_POR_EJECUTAR": "Serviços a executar",
+        "SERVICIOS_EN_EJECUCION": "Servicios em execução",
+        "SERVICIOS_VENCIDOS": "Serviços atrasados",
+        "SERVICIOS_FINALIZADOS": "Serviços finalizados",
+        "RUTEROS_CONECTADOS": "Entregadores conectados"
+      }
+    },
+    "EMPRESAS": {
+      "TITLE": "Empresas",
+      "TABLE": {
+        "COLUMNS": {
+          "LOGO": "Logo",
+          "NOMBRE": "Nome",
+          "ASIGNACIONES": "Alocações",
+          "USUARIOS": "Usuários",
+          "CREADA": "Criada",
+          "MODIFICADA": "Modificada"
+        },
+        "BUTTONS": {
+          "VER_EMPRESA": "Ver empresa"
+        }
+      }
+    },
+    "PRODUCTOS": {
+      "TITLE": "Produtos",
+      "PRODUCTOS": "Produtos",
+      "PRODUCTO": "Produto",
+      "TABLE": {
+        "COLUMNS": {
+          "NOMBRE": "Nome",
+          "CATEGORIA": "Categoría",
+          "CREADO": "Criado",
+          "MODIFICADO": "Modificado"
+        }
+      }
+    },
+    "HERRAMIENTAS": {
+      "TITLE": "Herraminetas",
+      "HERRAMIENTAS": "Herraminetas",
+      "HERRAMIENTA": "Herramienta",
+      "TABLE": {
+        "COLUMNS": {
+          "NOMBRE": "Nombre",
+          "CATEGORIA": "Categoría",
+          "CREADO": "Creado",
+          "MODIFICADO": "Modificado"
+        }
+      }
+    },
+    "SERVICIOS": {
+      "TITLE": "Serviços",
+      "GRAFICO_A_IMAGEN": "Gráfico a imagem",
+      "GRAFICO_A_PDF": "Gráfico em PDF",
+      "TABLA_A_EXCEL": "Tabla em Excel",
+      "TABLA_A_PDF": "Tabla em PDF",
+      "FILTRAR": "Filtrar",
+      "EXPORTAR": "Exportar",
+      "TABLE": {
+        "FECHA": "Data",
+        "COLUMNS": {
+          "NOMBRE": "Nome",
+          "TIEMPO_DE_RESPUESTA": "Tempo de resposta",
+          "ASIGNACIONES": "Alocações",
+          "MODIFICADO": "Modificado"
+        }
+      }
+    },
+    "USUARIOS": {
+      "TITLE": "Usuários",
+      "USUARIOS": "Usuários",
+      "USUARIO": "Usuário",
+      "TABLE": {
+        "COLUMNS": {
+          "IMAGEN": "Imagem",
+          "NOMBRES": "Nombres",
+          "APELLIDOS": "Sobrenome",
+          "EMAIL": "Email",
+          "GRUPO": "Grupo",
+          "MODIFICADO": "Modificado"
+        }
+      }
+    },
+    "RUTEROS": {
+      "TITLE": "Asignaciones por entregador",
+      "GRAFICO_A_IMAGEN": "Gráfico em imagem",
+      "GRAFICO_A_PDF": "Gráfico em PDF",
+      "TABLA_A_EXCEL": "Tabla em Excel",
+      "TABLA_A_PDF": "Tabla em PDF",
+      "FILTRAR": "Filtrar",
+      "EXPORTAR": "Exportar",
+      "TABLE": {
+        "FECHA": "Data"
+      }
+    },
+    "CATEGORIAS": {
+      "TITLE": "Alocações",
+      "TABLE": {
+        "COLUMNS": {
+          "ID": "ID",
+          "NOMBRE": "Nome",
+          "CREADO": "Criado",
+          "MODIFICADO": "Modificado"
+        },
+        "BUTTONS": {
+          "VER_EMPRESA": "Ver empresa"
+        }
+      }
+    },
+    "ESTADISTICAS": {
+      "SERVICIOS": {
+        "TITLE": "Titulo",
+        "EXPORTAR": "Exportar",
+        "GRAFICO_A_IMAGEN": "Grafico a imagen",
+        "GRAFICO_A_PDF": "Grafico a pdf",
+        "TABLA_A_EXCEL": "Tabla a excel",
+        "TABLA_A_PDF": "Tabla a pdf",
+        "FILTRAR": "Filtrar"
+      },
+      "RUTEROS": {
+        "TITLE": "Titulo",
+        "EXPORTAR": "Exportar",
+        "GRAFICO_A_IMAGEN": "Grafico a imagen",
+        "GRAFICO_A_PDF": "Grafico a pdf",
+        "TABLA_A_EXCEL": "Tabla a excel",
+        "TABLA_A_PDF": "Tabla a pdf",
+        "FILTRAR": "Filtrar"
+      },
+      "ENCUESTAS": {
+        "TITLE": "Encuestas",
+        "TABLE": {
+          "COLUMNS": {
+            "ID": "ID",
+            "NOMBRE": "Nombre",
+            "CLIENTE": "Cliente",
+            "RESPONDIDO": "Respondido",
+            "RATING": "Rating"
+          },
+          "BUTTONS": {
+            "VER": "Ver"
+          }
+        },
+        "RESPUESTA" : "Respuesta",
+        "CLIENTE" : "Cliente",
+        "NOMBRE" : "Nombre",
+        "CORREO" : "Correo",
+        "PREGUNTA_Y_RESPUESTA" : "Pregunta y Respuesta",
+        "RESPUESTA" : "Respuesta",
+        "PREGUNTA" : "Pregunta",
+        "OPCION" : "Opción"
+      }
+    },
+    "ENCUESTAS": {
+      "TITLE": "Encuestas",
+      "TABLE": {
+        "COLUMNS": {
+          "NOMBRE": "Nombre",
+          "ESTADO": "Estado",
+          "CREADO": "Creado",
+          "MODIFICADO": "Modificado"
+        }
+      }
+    }
+  },
+  "MENU": {
+    "DASHBOARD": "Dashboard",
+    "MAPA": "Mapa",
+    "EMPRESAS": "Empresas",
+    "USUARIOS": "Usuários",
+    "SALIR": "Sair",
+    "LENGUAJES": "Idiomas",
+    "ASIGNACIONES": "Alocações",
+    "CONFIGURACION": "Configuración",
+    "PRODUCTOS": {
+      "PRODUCTOS": "Produtos",
+      "CATEGORIAS": "Categorías",
+      "VER_CATEGORIAS": "Ver categorias",
+      "CREAR_CATEGORIAS": "Crear categorías",
+      "VER_PRODUCTOS": "Ver produtos"
+    },
+    "HERRAMIENTAS": {
+      "HERRAMIENTAS": "Herramientas / Actividades",
+      "CATEGORIAS": "Categorías",
+      "VER_CATEGORIAS": "Ver categorías",
+      "VER_HERRAMIENTAS": "Ver Herramientas"
+    },
+    "ENCUESTAS": {
+      "ENCUESTAS": "Encuestas"
+    },
+    "SERVICIOS": "Servições",
+    "CLIENTES": "Clientes",
+    "ESTADISTICAS": {
+      "ESTADISTICAS": "Estatísticas",
+      "POR_ESTADO": "Alocações por estado",
+      "POR_RUTERO": "Alocações por entregador",
+      "ENCUESTAS": "Enquetes resultados"
+    }
+  },
+  "TABLE": {
+    "NO_RESULTADOS": "Não há registro criado",
+    "IMPORTAR": "Importação",
+    "O_IMPORTAR": "ou iniciar a importação",
+    "VER": "Ver",
+    "ELIMINAR": "Remover",
+    "EDITAR": "Editar",
+    "CREAR": "Criar",
+    "CREAR_EL_PRIMERO": "Criar o primeiro",
+    "BUSCAR": "Encontrar itens...",
+    "PAGINATION": {
+      "PAGE": "Página:",
+      "ROWS_PER_PAGE": "Itens por página:",
+      "OF": "de"
+    }
+  },
+  "OPTIONS": {
+    "INMEDIATE": "Imediato",
+    "SCHEDULE": "Programado",
+    "RECURRENT": "Recorrente",
+    "DEMAND": "Demanda",
+    "MANDATORY": "Obrigatório"
+  },
+  "CUSTOMER": {
+    "ASIGNACION": {
+      "NO_ASIGNADO": "Sua alocação não está disponível.",
+      "GRACIAS": "Obrigado por seus comentários",
+      "TIEMPO_ESTIMADO": "Tempo estimado",
+      "TIEMPO_ESTIMADO_LLEGADA": "Chegada estimada em tempo real",
+      "HORA": "Hora",
+      "HORAS": "Horas",
+      "MINUTO": "Minuto",
+      "MINUTOS": "Minutos",
+      "SEGUNDO": "Segundo",
+      "SEGUNDOS": "Segundos",
+      "PROGRAMADA": "A exibição em tempo real da sua solicitação estará disponível apenas no dia agendado",
+      "PASADA": "Esta tarefa expirou, entre em contato com o provedor",
+      "TIEMPO_ESTIMADO_EJECUCION": "Tempo estimado de execução",
+      "INICIO_ESTIMADO": "início estimado",
+      "FINALIZADO_ESTIMADO": "conclusão estimada",
+      "SERVICIO_REALIZAR": "Serviços a serem realizados",
+      "PRODUCTO_REALIZAR": "Produtos a entregar",
+      "NO_ACEPTADA": "A tarefa não foi aceita por nenhuma estrada",
+      "SIN_UBICACION": "A localização do driver não foi registrada"
+
+    },
+    "POLL": {
+      "ENCUESTA": "Por favor, preencha a seguinte pesquisa",
+      "GRACIAS": "Obrigado por seus comentários"
+    },
+    "EDITAR": {
+      "MENU": "Editar perfil",
+      "GRACIAS": "Seus dados foram atualizados"
+    },
+    "HISTORIAL": {
+      "MENU": "Historial"
+    }
+  }
+}

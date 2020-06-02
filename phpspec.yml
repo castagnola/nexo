@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Nexo
+        psr4_prefix: Nexo
+        src_path: app

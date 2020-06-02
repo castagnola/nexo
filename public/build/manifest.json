@@ -1,0 +1,14 @@
+{
+  "app": {
+    "js": "/build/js/app.089422b97fc1a1646a95.js",
+    "css": "/build/css/app.089422b97fc1a1646a95.css"
+  },
+  "unlogged": {
+    "js": "/build/js/unlogged.089422b97fc1a1646a95.js",
+    "css": "/build/css/unlogged.089422b97fc1a1646a95.css"
+  },
+  "vendor": {
+    "js": "/build/js/vendor.089422b97fc1a1646a95.js",
+    "css": "/build/css/vendor.089422b97fc1a1646a95.css"
+  }
+}

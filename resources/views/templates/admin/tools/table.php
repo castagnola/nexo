@@ -1,0 +1,1 @@
+<nx-table options="vm.options"></nx-table>

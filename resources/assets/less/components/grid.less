@@ -1,0 +1,55 @@
+@import (less) '../../../../bower_components/angular-ui-grid/ui-grid.css';
+
+@font-path : '../fonts/angular-ui-grid/';
+
+// Font
+@font-face {
+  font-family: 'ui-grid';
+  src: url('@{font-path}ui-grid.eot');
+  src: url('@{font-path}ui-grid.eot#iefix') format('embedded-opentype'),
+  url('@{font-path}ui-grid.woff') format('woff'),
+  url('@{font-path}ui-grid.ttf') format('truetype'),
+  url('@{font-path}ui-grid.svg?#ui-grid') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Header
+
+.ui-grid {
+  border: none !important;
+
+  .ui-grid-top-panel {
+    background: white;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .ui-grid-cell-contents {
+    padding: 15px !important;
+
+    &-actions {
+      padding: 10px !important;
+    }
+  }
+
+  .ui-grid-cell {
+    height: auto !important;
+  }
+
+  .ui-grid-column-menu-button {
+    top: 12px;
+  }
+
+  .ui-grid-menu-button {
+    width: 40px;
+    text-align: center;
+    top: -40px;
+    height: auto;
+
+    .ui-grid-icon-container {
+      margin-top: 0;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "LANG": "Español",
+  "NO_HAY_NINGUN_CLIENTE_CREADO": "No hay ningun cliente creados",
+  "NO_HAY_NINGUNA_ASIGNACION_CREADA": "No hay ninguna asignación creada",
+  "CREAR_EL_PRIMERO": "Crear el primero",
+  "CREAR_LA_PRIMERA": "Crear la primera",
+  "OR_IMPORT": "O importa los clientes",
+  "GLOBAL": {
+    "ACTIVADO": "Activado",
+    "DESACTIVADO": "Desactivado",
+    "GUARDAR": "Guardar",
+    "CANCELAR": "Cancelar",
+    "REGRESAR": "Regresar",
+    "ARREGLAR": "Arreglar",
+    "SELECCIONAR": "Seleccionar",
+    "SELECCIONADO": "Seleccionado",
+    "SELECCIONADA": "Seleccionada",
+    "CERRAR": "Cerrar",
+    "QUITAR": "Quitar",
+    "ENVIAR": "Enviar",
+    "CANTIDAD": "Cantidad",
+    "NO_RESULTADOS_PARA": "No hay resultados para {{texto}}",
+    "OK": "Ok",
+    "SIGUIENTE": "Siguiente",
+    "ANTERIOR": "Anterior",
+    "MES": "Mes",
+    "DIA": "Día",
+    "ANNO": "Año",
+    "HORA": "Hora",
+    "MINUTO": "Minuto",
+    "SELECCIONE_IMAGEN": "Seleccione o arrastre la imagen",
+    "NO_PERM": "No tienes permisos suficientes para esta acción",
+    "ACCESS_DENIED": "Acceso denegado",
+    "ERROR_SERVIDOR": "Hubo un error en el servidor, intenta de nuevo más tarde.",
+    "ERROR_VALIDANDO": {
+      "TITLE": "No se puede continuar",
+      "MSG": "Completa toda la información requerida para continuar con el proceso"
+    },
+    "ERROR_GUARDANDO": {
+      "TITLE": "No se pudo guardar",
+      "MSG": "'Hubo un error al intentar guardar"
+    },
+    "ELEMENTO_CREADO": "El elemento {{ nombre }} se ha creado.",
+    "ELEMENTO_ACTUALIZADO": "El elemento {{ nombre }} se ha actualizado.",
+    "ELEMENTO_ELIMINADO": "Elemento eliminado correctamente",
+    "ERROR_ELIMINANDO": {
+      "TITLE": "No se pudo eliminar",
+      "MSG": "Hubo un error al tratar de eliminar al elemento. Inténtelo de nuevo más tarde"
+    },
+    "SISTEMA_MANTENIMIENTO": "El servicio se encuentra en proceso de mantenimiento. Regresaremos en breve.",
+    "BUSCAR": "Buscar",
+    "VALIDACION": {
+      "REQUERIDO": "Este campo es obligatorio"
+    },
+    "CAMBIANDO_IDIOMA": "Cambiando idioma, por favor espera...",
+    "SELECCIONE_UNA_O_VARIAS_OPCIONES" : "Seleccione una o varias opciones..."
+  },
+  "FORMS": {
+    "CAMPOS": {
+      "AUTOCOMPLETAR": {
+        "NO_HAY_RESULTADOS": "No hay resultados para \"{{texto}}\""
+      }
+    },
+    "ASSIGN": {
+      "ARREGLAR": "Arreglar",
+      "SELECCIONAR_DIRECCION": "Seleccione la dirección",
+      "AGREGAR_DIRECCION": "Agregar otra dirección",
+      "NO_DIRECCIONES" : "El cliente no tiene direcciones creadas",
+      "BUSCAR_AL_CLIENTE": "Buscar al cliente",
+      "TIPO_DE_ASIGNACION": "Tipos de asignación",
+      "SERVICIOS": "Servicio(s)",
+      "PRODUCTOS": "Producto(s)",
+      "TIPO_DE_PROGRAMACION": "Tipo de programación",
+      "FECHA_Y_HORA_DE_EJECUCION": "Fecha y hora de ejecución",
+      "SE_REPITE": "Se repite",
+      "REPETIR_CADA": "Repetir cada",
+      "REPETIR_CADA_DIA": "Repetir cada día",
+      "REPETIR_EL": "Repetir el",
+      "INICIAL_EL": "Inicial el",
+      "FINALIZA_EL": "Finaliza el",
+      "BUSCAR_PRODUCTO": "Buscar producto...",
+      "PRODUCTOS_DISPONIBLES": "Productos disponibles ({{cantidad}})",
+      "CLIC_PRODUCTO_SELECCIONAR": "Haga clic sobre el producto que desea seleccionar.",
+      "CLIC_PRODUCTO_DESELECCIONAR": "Haga clic sobre el producto que desea deseleccionar.",
+      "PRODUCTOS_SELECCIONADOS": "Productos seleccionados ({{cantidad}})",
+      "SELECCIONAR_PRODUCTO": "Seleccionar producto",
+      "DESELECCIONAR_PRODUCTO": "Deseleccionar producto",
+      "BUSCAR_RUTERO": "Buscar rutero...",
+      "RUTEROS_DISPONIBLES": "Ruteros disponibles",
+      "CLIC_RUTERO_SELECCIONAR": "Haga clic sobre el rutero que desea seleccionar.",
+      "CLIC_RUTERO_DESELECCIONAR": "Haga clic sobre el rutero que desea deseleccionar.",
+      "RUTEROS_SELECCIONADOS": "Ruteros seleccionados",
+      "SELECCIONAR_RUTERO": "Seleccionar rutero",
+      "DESELECCIONAR_RUTERO": "Deseleccionar rutero",
+      "RUTERO_NO_ASIGNACION": "Ninguna asignación existente",
+      "INFORMACION_CLIENTE": "Información del cliente",
+      "INFORMACION_ASIGNACION": "Información de la asignación",
+      "INFORMACION_RUTEROS": "Información de los ruteros",
+      "TIPO_ASIGNACION": "Tipo de asignación",
+      "TIPO_PROGRAMACION": "Tipo de programacion",
+      "SERVICIOS_MISMO_TIEMPO": "Los servicios se ejecutarán uno a la vez (Duración {{minutes}} minutos)",
+      "SERVICIOS_A_LA_VEZ": "Los servicios se ejecutarán todos a la vez (Duración {{minutes}} minutos)",
+      "EDITAR_DIRECCION": "Editar Dirección",
+      "PASOS": {
+        "SELECCIONAR_CLIENTE": "Seleccionar al cliente",
+        "SELECCIONAR_SERVICIOS": "Seleccionar el servicio y\/o productos",
+        "SELECCIONAR_FECHA": "Seleccionar fecha y ruteros",
+        "RESUMEN": "Resumen de la asignación"
+      }
+    },
+    "PRODUCT": {
+      "CATEGORIA_DEL_PRODUCTO": "Categoría del producto",
+      "NOMBRE": "Nombre",
+      "DESCRIPCION": "Descripción",
+      "CODIGO": "Código",
+      "PESO": "Peso",
+      "UNIDAD": "Unidad",
+      "ALTURA": "Altura",
+      "ANCHO": "Ancho",
+      "PROFUNDIDAD": "Profundidad",
+      "INFORMACION_BASICA": "Información básica",
+      "CARACTERISTICAS": "Características"
+    },
+    "CUSTOMER": {
+      "NOMBRES": "Nombres",
+      "APELLIDOS": "Apellidos",
+      "EMAIL": "Email",
+      "TIPO_DE_DOCUMENTO": "Tipo de documento",
+      "DOCUMENTO": "Documento",
+      "DIRECCION": "Dirección",
+      "DIRECCIONES": "Direccines",
+      "AGREGAR_OTRA_DIRECCION": "Agregar otra dirección",
+      "TELEFONO": "Teléfono",
+      "TELEFONOS": "Teléfonos",
+      "TIPO": "Tipo",
+      "AGREGAR_OTRO_TELEFONO": "Agregar otro teléfono",
+      "CIUDAD": "Ciudad"
+    },
+    "PRODUCT_CATEGORY": {
+      "NOMBRE": "Nombre",
+      "DESCRIPCION": "Descripción"
+    },
+    "STATS": {
+      "FILTRAR_DESDE": "Filtrar desde",
+      "FILTRAR_HASTA": "Filtrar hasta",
+      "AGRUPAR_POR": "Agrupar por",
+      "DIAS": "Días",
+      "SEMANAS": "Semanas",
+      "MESES": "Meses"
+    },
+    "TEAM": {
+      "LOGO": "Logo",
+      "SELECCIONE_O_ARRASTRE_EL_LOGO": "Seleccione o arrastre el logo",
+      "ESTADO": "Estado",
+      "INACTIVA": "Inactiva",
+      "ACTIVA": "Activa",
+      "NOMBRE": "Nombre",
+      "URL": "URL",
+      "NO_ESCRIBA_EL_DOMINIO": "(Ej: empresa) No escriba el dominio",
+      "MODULOS_ACTIVADOS": "Módulos activados"
+    },
+    "SERVICE": {
+      "NOMBRE": "Nombre",
+      "HORAS": "Horas",
+      "MINUTOS": "Minutos",
+      "DESCRIPCION": "Descripción"
+    },
+    "USER": {
+      "LAS_CONTRASENAS_NO_COINCIDEN": "Las contraseñas no coinciden",
+      "IMAGEN": "Imagen",
+      "SELECCIONE_O_ARRASTRE_LA_IMAGEN": "Seleccione o arrastre la imagen",
+      "GRUPO": "Grupo",
+      "NOMBRES": "Nombres",
+      "APELLIDOS": "Apellidos",
+      "EMAIL": "Email",
+      "CONTRASENA": "Contraseña",
+      "CONFIRME_CONTRASENA": "Confirme contraseña",
+      "DATO_DE_CONTACTO": "Dato de contacto",
+      "DATOS_DE_CONTACTO": "Datos de contacto",
+      "TIPO": "Tipo",
+      "DIRECCION": "Dirección",
+      "TELEFONO_FIJO": "Teléfono Fijo",
+      "TELEFONO_MOVIL": "Teléfono móvil",
+      "AGREGAR_OTRO_TRANSPORTE": "Agregar otro transporte",
+      "MEDIO_DE_TRANSPORTE": "Medio de transporte",
+      "TIPO_DE_TRANSPORTE": "Tipo de transporte",
+      "ES_PROPIO": "¿Es propio?",
+      "NO": "No",
+      "SI": "Si",
+      "NOMBRE": "Nombre",
+      "CAPACIDAD_MAXIMA": "Capacidad máxima",
+      "CAPACIDAD_MAXIMA_PLACEHOLDER": "Ej: 2 Toneladas",
+      "CAPACIDAD_DE_PASAJEROS": "Capacidad de pasajeros",
+      "VELOCIDAD_MAXIMA": "Velocidad máxima",
+      "MATRICULA": "Matrícula (Placa)",
+      "CIUDAD_DE_LA_MATRICULA": "Ciudad de la mátricula",
+      "OBSERVACIONES": "Observaciones"
+    }
+  },
+  "PAGES": {
+    "ASIGNACIONES": {
+      "TITLE": "Asignaciones",
+      "ASIGNACIONES": "Asignaciones",
+      "ASIGNACION": "asignación",
+      "NO_HAY_NINGUNA_ASIGNACION_CREADA": "No hay ninguna asignación creada",
+      "CREAR_LA_PRIMERA": "Crear la primera",
+      "DIRECCION": "Dirección",
+      "CIUDAD": "Ciudad",
+      "RUTEROS_ASIGNADOS": "Ruteros asignados",
+      "INFORMACION_GENERAL": "Información general",
+      "ESTADO": "Estado",
+      "CODIGO_DE_SERVICIO": "Código del servicio",
+      "CODIGO_DE_VERIFICACION": "Código de verificación",
+      "OBSERVACIONES": "Observaciones",
+      "SERVICIOS": "Servicio(s)",
+      "PRODUCTOS": "Producto(s)",
+      "PROGRAMACION_ASIGNACION": "Programación de la asignación",
+      "TIPO_PROGRAMACION": "Tipo de programación",
+      "TIPO_ASIGNACION": "Tipo de asignación",
+      "INICIA": "Inicia",
+      "FINALIZA": "Finaliza",
+      "RECURRENCIA": "Recurrencia",
+      "TABLE": {
+        "COLUMNS": {
+          "CODIGO": "Código",
+          "ESTADO": "Estado",
+          "TIPO": "Tipo",
+          "TIPO_DE_ASIGNACION": "Tipo de asignación",
+          "FECHA_DE_INICIO": "Fecha de inicio",
+          "MODIFICADO": "Modificado"
+        }
+      }
+    },
+    "CLIENTES": {
+      "TITLE": "Clientes",
+      "CLIENTES": "Clientes",
+      "CLIENTE": "Clientes",
+      "TABLE": {
+        "COLUMNS": {
+          "NOMBRES": "Nombres",
+          "APELLIDOS": "Apellidos",
+          "EMAIL": "Email",
+          "DOCUMENTO": "Documento",
+          "CREADO": "Creado",
+          "MODIFICADO": "Modificado"
+        }
+      }
+    },
+    "DASHBOARD": {
+      "ULTIMAS_ASIGNACIONES_CREADAS" : "Últimas asignaciones creadas",
+      "ULTIMOS_USUARIOS_CREADOS" : "Últimos usuarios creados",
+      "MODULOS" : "Módulos",
+      "LIMITES_POR_GRUPO" : "Límites por grupo"
+    },
+    "MAPA": {
+      "INFORMACION_RAPIDA": {
+        "SERVICIOS_POR_EJECUTAR": "Servicios por ejecutar",
+        "SERVICIOS_EN_EJECUCION": "Servicios en ejecución",
+        "SERVICIOS_VENCIDOS": "Servicios vencidos",
+        "SERVICIOS_FINALIZADOS": "Servicios finalizados",
+        "RUTEROS_CONECTADOS": "Ruteros conectados"
+      }
+    },
+    "EMPRESAS": {
+      "TITLE": "Empresas",
+      "TABLE": {
+        "COLUMNS": {
+          "LOGO": "Logo",
+          "NOMBRE": "Nombre",
+          "ASIGNACIONES": "Asignaciones",
+          "USUARIOS": "Usuarios",
+          "CREADA": "Creada",
+          "MODIFICADA": "Modificada"
+        },
+        "BUTTONS": {
+          "VER_EMPRESA": "Ver empresa"
+        }
+      }
+    },
+    "PRODUCTOS": {
+      "TITLE": "Productos",
+      "PRODUCTOS": "Productos",
+      "PRODUCTO": "Producto",
+      "TABLE": {
+        "COLUMNS": {
+          "NOMBRE": "Nombre",
+          "CATEGORIA": "Categoría",
+          "CREADO": "Creado",
+          "MODIFICADO": "Modificado"
+        }
+      }
+    },
+    "HERRAMIENTAS": {
+      "TITLE": "Herraminetas / Actividades",
+      "HERRAMIENTAS": "Herramientas / Actividades",
+      "HERRAMIENTA": "Herramienta / Actividad",
+      "TABLE": {
+        "COLUMNS": {
+          "NOMBRE": "Nombre",
+          "CATEGORIA": "Categoría",
+          "CREADO": "Creado",
+          "MODIFICADO": "Modificado"
+        }
+      }
+    },
+    "SERVICIOS": {
+      "TITLE": "Servicios",
+      "GRAFICO_A_IMAGEN": "Gráfico a imagen",
+      "GRAFICO_A_PDF": "Gráfico a PDF",
+      "TABLA_A_EXCEL": "Tabla a Excel",
+      "TABLA_A_PDF": "Tabla a PDF",
+      "FILTRAR": "Filtrar",
+      "EXPORTAR": "Exportar",
+      "TABLE": {
+        "FECHA": "Fecha",
+        "COLUMNS": {
+          "NOMBRE": "Nombre",
+          "TIEMPO_DE_RESPUESTA" : "Tiempo de respuesta",
+          "ASIGNACIONES" : "Asignaciones",
+          "MODIFICADO" : "Modificado"
+        }
+      }
+    },
+    "USUARIOS": {
+      "TITLE": "Usuarios",
+      "USUARIOS": "Usuarios",
+      "USUARIO": "Usuario",
+      "TABLE": {
+        "COLUMNS": {
+          "IMAGEN": "Imagen",
+          "NOMBRES": "Nombres",
+          "APELLIDOS": "Apellidos",
+          "EMAIL": "Email",
+          "GRUPO": "Grupo",
+          "MODIFICADO": "Modificado"
+        }
+      }
+    },
+    "RUTEROS": {
+      "TITLE": "Asignaciones por rutero",
+      "GRAFICO_A_IMAGEN": "Gráfico a imagen",
+      "GRAFICO_A_PDF": "Gráfico a PDF",
+      "TABLA_A_EXCEL": "Tabla a Excel",
+      "TABLA_A_PDF": "Tabla a PDF",
+      "FILTRAR": "Filtrar",
+      "EXPORTAR": "Exportar",
+      "TABLE": {
+        "FECHA": "Fecha"
+      }
+    },
+    "CATEGORIAS": {
+      "TITLE": "Asignaciones",
+      "TABLE": {
+        "COLUMNS": {
+          "ID": "ID",
+          "NOMBRE": "Nombre",
+          "CREADO": "Creado",
+          "MODIFICADO": "Modificado"
+        },
+        "BUTTONS": {
+          "VER_EMPRESA": "Ver empresa"
+        }
+      }
+    },
+    "ESTADISTICAS": {
+      "SERVICIOS": {
+        "TITLE": "Titulo",
+        "EXPORTAR": "Exportar",
+        "GRAFICO_A_IMAGEN": "Grafico a imagen",
+        "GRAFICO_A_PDF": "Grafico a pdf",
+        "TABLA_A_EXCEL": "Tabla a excel",
+        "TABLA_A_PDF": "Tabla a pdf",
+        "FILTRAR": "Filtrar"
+      },
+      "RUTEROS": {
+        "TITLE": "Titulo",
+        "EXPORTAR": "Exportar",
+        "GRAFICO_A_IMAGEN": "Grafico a imagen",
+        "GRAFICO_A_PDF": "Grafico a pdf",
+        "TABLA_A_EXCEL": "Tabla a excel",
+        "TABLA_A_PDF": "Tabla a pdf",
+        "FILTRAR": "Filtrar"
+      },
+      "ENCUESTAS": {
+        "TITLE": "Encuestas",
+        "TABLE": {
+          "COLUMNS": {
+            "ID": "ID",
+            "NOMBRE": "Nombre",
+            "CLIENTE": "Cliente",
+            "RESPONDIDO": "Respondido",
+            "RATING": "Rating"
+          },
+          "BUTTONS": {
+            "VER": "Ver"
+          }
+        },
+        "RESPUESTA" : "Respuesta",
+        "CLIENTE" : "Cliente",
+        "NOMBRE" : "Nombre",
+        "CORREO" : "Correo",
+        "PREGUNTA_Y_RESPUESTA" : "Pregunta y Respuesta",
+        "RESPUESTA" : "Respuesta",
+        "PREGUNTA" : "Pregunta",
+        "OPCION" : "Opción"
+      }
+    },
+    "ENCUESTAS": {
+      "TITLE": "Encuestas",
+      "TABLE": {
+        "COLUMNS": {
+          "NOMBRE": "Nombre",
+          "ESTADO": "Estado",
+          "CREADO": "Creado",
+          "MODIFICADO": "Modificado"
+        }
+      }
+    }
+  },
+  "MENU": {
+    "DASHBOARD": "Dashboard",
+    "MAPA": "Mapa",
+    "EMPRESAS": "Empresas",
+    "USUARIOS": "Usuarios",
+    "SALIR": "Salir",
+    "LENGUAJES": "Lenguajes",
+    "ASIGNACIONES": "Asignaciones",
+    "CONFIGURACION": "Configuración",
+    "PRODUCTOS": {
+      "PRODUCTOS": "Productos",
+      "CATEGORIAS": "Categorías",
+      "VER_CATEGORIAS": "Ver categorías",
+      "CREAR_CATEGORIAS": "Crear categorías",
+      "VER_PRODUCTOS": "Ver productos"
+    },
+    "HERRAMIENTAS": {
+      "HERRAMIENTAS": "Herramientas / Actividades",
+      "CATEGORIAS": "Categorías",
+      "VER_CATEGORIAS": "Ver categorías",
+      "VER_HERRAMIENTAS": "Ver Herramientas"
+    },
+    "ENCUESTAS": {
+      "ENCUESTAS": "Encuestas"
+    },
+    "SERVICIOS": "Servicios",
+    "CLIENTES": "Clientes",
+    "ESTADISTICAS": {
+      "ESTADISTICAS": "Estadisticas",
+      "POR_ESTADO": "Asignaciones por estado",
+      "POR_RUTERO": "Asignaciones por rutero",
+      "ENCUESTAS": "Resultados de encuestas"
+    }
+  },
+  "TABLE": {
+    "NO_RESULTADOS": "No hay ningún registro creado",
+    "IMPORTAR": "Importar",
+    "O_IMPORTAR": "o importar",
+    "VER": "Ver",
+    "ELIMINAR": "Eliminar",
+    "EDITAR": "Editar",
+    "CREAR": "Crear",
+    "CREAR_EL_PRIMERO": "Crear el primero",
+    "BUSCAR": "Buscar registros...",
+    "PAGINATION": {
+      "PAGE": "Página:",
+      "ROWS_PER_PAGE": "Elementos por página:",
+      "OF": "de"
+    }
+  },
+  "OPTIONS": {
+    "INMEDIATE": "Inmediato",
+    "SCHEDULE": "Programado",
+    "RECURRENT": "Recurrente",
+    "DEMAND": "Por demanda",
+    "MANDATORY": "Obligatorio"
+  },
+  "CUSTOMER": {
+    "ASIGNACION": {
+      "NO_ASIGNADO": "Tu asiganción no esta disponible.",
+      "GRACIAS": "Gracias por tus comentarios",
+      "TIEMPO_ESTIMADO": "Tiempo estimado",
+      "TIEMPO_ESTIMADO_LLEGADA": "Estimado de llegada en tiempo real",
+      "HORA": "Hora",
+      "HORAS": "Horas",
+      "MINUTO": "Minuto",
+      "MINUTOS": "Minutos",
+      "SEGUNDO": "Segundo",
+      "SEGUNDOS": "Segundos",
+      "PROGRAMADA": "La visualización en tiempo real de tu solicitud estará disponible unicamente el día programado",
+      "PASADA": "Esta asignación está vencida, por favor contacte al proveedor",
+      "TIEMPO_ESTIMADO_EJECUCION": "Tiempo estimado de ejecución",
+      "INICIO_ESTIMADO": "Inicio estimado",
+      "FINALIZADO_ESTIMADO": "Finalización estimado",
+      "SERVICIO_REALIZAR": "Servicios a realizar",
+      "PRODUCTO_REALIZAR": "Productos a entregar",
+      "NO_ACEPTADA": "El rutero todavia no va en camino.",
+      "SIN_UBICACION": "No se ha registrado la ubicación del rutero"
+    },
+    "POLL": {
+      "ENCUESTA": "Por favor completa la siquiente encuesta",
+      "GRACIAS": "Gracias por tus comentarios"
+    },
+    "EDITAR": {
+      "MENU": "Editar perfil",
+      "GRACIAS": "Tus datos han sido actualizados"
+    },
+    "HISTORIAL": {
+      "MENU": "Historial"
+    }
+  }
+}

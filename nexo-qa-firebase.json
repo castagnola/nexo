@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nexo-qa",
+  "private_key_id": "e648566c9b6b65926c48ffa1bd785fa914ebd28e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8//vO8TKe8YFS\nvghuftTxhjtN0jVKB4E14MiB3iBkouneMktcwxgAF3J1EYLOquBRoYLDEzCX8lCd\nIneV/YUemIg2hqqgzJhCcGUwF6OU/Ut5hKreqzhaTSBgS1p6gnrloyTsOVwzkO7M\n4LJw1lsGOXr6mvqq4ujtjEgfPhxAa9eGLwb4YzNARiNa4cWzZ+/Jqkw9TkFQQ4sR\nRsORZmgaFaYkh33SE4i3v26dLL/yUhUKOB7uPfDQpX1WYSIpUwuxprpubI97sxOa\nla4/o9VVJy15sPT1uJkoC5kjTIkQ1YmX7I6kOeJPWeXkG+zYjoiGXTvqai88viJI\nQQ9sKLYBAgMBAAECggEBALkalMp3HDbjHN+m0qc1fOUXrFlpeVuJwhi8kGPw4xTt\nIdPGulydjpH4ZNcXUV+Lp6sLXgAkeUE3x5A+Q5UY+RmgFjgg6FgYST84yUGyxTmU\nYikfsCHo24ZFZ2IoKvM1e5wQjob1HsI6PkdWAi3VIs0T2sg6pSpclfihnblLoWvM\n/4l1diAwOukkVZE5JdZkhbs+eE5m20VJcHEMZn+5/+AdR9HpMox6gm/4gscCU77w\ndz24ib2YXXdl1CzjZJTb7tGF90I1mt3xunCMtWP+7FXelEsYL+bcS9mzfrRBiVP/\ngdN20UIKoq0hvmvTRqDsmT8YM87Bfk13zDyFjoUSZeECgYEA/qLn3ww2/miVvAEn\nZN8ds8XnvhigBlWI3Wf/MbCIw0+Iy24jC+7BIlL5h0N3H6p3bKzuam63kG/1k4Rh\nIqFZOx6idAoeANf0405dxYXYATpa1mwoh0vLwQzJpa18aj+2if6SrShEhaULZe4O\neWd81YaKbVF/g/hb3zSS4SglKt0CgYEAvgMX71IJBCul6U+BwzWMxMEUueqlBLp/\nPoKk/Pd2Tj4GpxLjMdXeZb7gGsVaKztWcPLevPP6YQx2d01hD+wpoQrntv/2iWSG\nNrvhm67PlZRID1GSwR778w1bTLrRx/23VRlBvXUdYPlCbsXXhJM4kc8ab2wOzsi4\nBZ9Ik2rNK3UCgYEApAt1UBgBceMU2/ruUyj+bKvKAYjBx3LhaqouGOf/I7ygh1Zc\nE7rsB93mzcKkAu2CZKwAKOdNMSs/zZqSLYo+/zxcMl+2NprqNGpvNOpmX1wl20/w\nyEEHckZ3vlnG9ng3dC1id1Wi12qdrjwwbPxDyxgTJBxGB1JAdcrb+Vwwna0CgYAF\nd9VSf8veoNrvcehME9hvORc9mnERR8StqdjRptVyvvo2CKcdIgh6aRnN62wC3nxI\nV9TtHyBPdqpaGJH4gVVZWxT8ATW5EnmCTbnaXxd+OHwyZKiSgi/B+NptxNqQpM6H\n1mg76Yjk54dv5KWlHQ99srYSCswKS2BwWPsfsu0gmQKBgFPp2rQqNaH0k9zpxNv8\nZojqVaEdHX4ey4kJkwqvXMMRjNlwsKc5CtTZsKNiu+t9BpeYLKVsBzuIeWPqMz70\nggy1dQ+GjoJuIXyEu9kmJ361z5SE8Q7n5eQwZhdjblunLmTjWOAKtvr4SoeszEDf\nGLMkTae8hu2y/tUHHVNYfeYw\n-----END PRIVATE KEY-----\n",
+  "client_email": "nexo-qa-auth@nexo-qa.iam.gserviceaccount.com",
+  "client_id": "107281263040392018700",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nexo-qa-auth%40nexo-qa.iam.gserviceaccount.com"
+}
